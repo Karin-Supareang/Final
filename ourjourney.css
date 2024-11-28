@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/motiva-sans');
+
 *{
     margin:0;
     padding: 0;
@@ -7,6 +9,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     height:100vh;
     justify-content: center;
     align-items: center;
@@ -21,7 +24,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 5%;
+    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,9 +38,10 @@ body{
     height: 90px;
 }
 
-.logo img {
-    height: 100%;
+.logo-img {
     object-fit: contain;
+    width:143px;
+    height: 143px;
 }
 
 .nav-links {
@@ -51,6 +55,18 @@ body{
 }
 /* navbar navbar navbar navbar navbar navbar navbar*/
 
+
+.topic {
+  font-family: 'Inter';
+  font-size: 64px;
+}
+
+#pageline {
+  width: 1280px;
+  background-color: #ffffff;
+  height: 7px;
+  margin: 50px;
+}
 
 /* for box only for box only for box only for box only for box only for box only for box only */
 .journeyelement {
