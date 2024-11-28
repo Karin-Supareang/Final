@@ -1,0 +1,134 @@
+body {
+    font-family: Inter, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 35%, rgba(104,0,0,1) 100% ,rgba(77,0,0,1) 100%);
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+
+  .container {
+    display: flex;          /* จัดวางแนวนอนให้อยู่ตรงกลาง */
+    align-items: center;    /* จัดวางแนวตั้งให้อยู่ตรงกลาง */
+    height: 100vh;          /* ให้ container เต็มความสูงของหน้าจอ */
+    text-align: center;     /* จัดข้อความให้อยู่ตรงกลาง */
+    flex-direction: column; /* จัดเรียงให้แนวตั้ง */
+    color: #f9f9f9;
+    gap: 15px;
+  }
+
+  .container h1{
+    font-weight: bold;
+  }
+  
+  .card {
+    width: 600px;
+    height: 170px;
+    color: #000000;
+    background-color: #f9f9f9;
+    border-radius: 100px 10px 10px 100px;       /* เพิ่มความโค้งมน */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    display: flex;                              /* ใช้ Flexbox เพื่อจัดวางข้อความ */
+    justify-content: space-between;             /* ข้อความอยู่ซ้าย-ขวา */
+    align-items: center;                        /* จัดให้ข้อความอยู่กลางแนวตั้ง */
+    padding: 10px 20px;
+  }
+
+  .card img{
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .content {
+    display: flex;   /* จัดวางให้เป็นสองฝั่ง */
+    width: 100%;    /* ใช้พื้นที่ทั้งหมดของการ์ด */
+    padding: 0px;
+  }
+
+  .content p{
+    font-size: 13px;
+    margin: 2.5px;
+  }
+  
+  .content .duty p{
+    margin: 0;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .content .duty{
+    background-color: #ffd30e;
+    padding: 10px;
+    width: 450px;
+    border-radius: 100px;
+    margin-top: 3px;
+  }
+
+
+  .Detail {
+    display: flex;            /* ใช้ Flexbox เพื่อจัด layout */
+    flex-direction: column;   /* จัดเรียงในแนวตั้ง */
+    align-items: flex-start;  /* จัดข้อความให้เริ่มต้นที่ฝั่งซ้าย */
+  }
+  
+  h2 {
+    margin: 0; /* ลบ margin เริ่มต้นที่อาจทำให้ระยะห่างดูผิดปกติ */
+  }
+  
+  .duty {
+    margin: 0; /* ลบ margin เริ่มต้น */
+    }
+
+
+
+/* ฟอร์มทั้งหมด */
+input[type=text],
+select,textarea,
+input[type=submit] {
+  width: 100%; /* ให้เต็ม container */
+  padding: 10px 20px;
+  margin-bottom: 16px; /* ระยะห่างระหว่างแต่ละอัน */
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+
+select {
+  width: 100%;
+}
+
+/* ปุ่ม submit */
+input[type=submit] {
+  width: 30%; /* ปรับความกว้างของปุ่ม */
+  background-color: #FF8c00;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+
+
+/* container */
+.Form_card {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #000000;
+  text-align: left;
+  width: 600px; /* กำหนดความกว้างของฟอร์ม */
+  margin: 0 auto; /* จัดฟอร์มให้อยู่กลางหน้า */
+  margin-top: 10px;
+}
+
+.Form_text{
+  text-align: center;
+  padding: 20px;
+}
+
+.Form_text p{
+  color: #ccc;
+}
