@@ -272,14 +272,55 @@ figure img {
   cursor: not-allowed;
 }
 
-  /* for box only for box only for box only for box only for box only for box only for box only */
+/* for box only for box only for box only for box only for box only for box only for box only */
 
 
 
 
 
 
-  /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
+/* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
+@media screen and (max-width: 1024px) 
+{
+    
+}
+
+@media screen and (max-width: 768px) 
+{
+    
+}
 
 
-    /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
+@media screen and (max-width: 412px) {
+ 
+  .logo-img {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+  }
+  
+  .topic {
+    font-size: 20px;
+    margin: 20px;
+  }
+  #pageline {
+    height: 1px;
+  }
+  article {
+    padding: 20px;
+    margin: 30px;
+  }
+
+  figure {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .description {
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+/* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
