@@ -5,71 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ourjourney.css">
-    <title> 𝓞𝓾𝓻𝓙𝓸𝓾𝓻𝓷𝓮𝔂</title>
-    <link rel="icon" type="image/png" href="resources\cstulogo.png">
+    <title>𝓞𝓾𝓻𝓙𝓸𝓾𝓻𝓷𝓮𝔂</title>
+    <link rel="icon" type="image/png" href="resources/cstulogo.png">
 
     <!-- Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:wght@700&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<nav class="navbar">
-    <div class="logo">
-        <img src="resources\cstulogo.png" alt="Logo" class="logo-img">
-    </div>
-    <ul class="navlinks">
-        <li><a href="homepage.html" class="nav-links" onclick="setActive(this)">Home</a></li>
-        <li><a href="ourjourney.html" class="nav-link" onclick="setActive(this)">Our Journey Highlight</a></li>
-        <li><a href="ourfuture.html" class="nav-link" onclick="setActive(this)">Our Future Highlight</a></li>
-    </ul>
-</nav>
-
-<p class ="topic"> OUR JOURNEY START HERE </p>
-<div id="pageline"></div>
-
-<div class="journeyelement">
-    <!-- First person -->
-    <div class="Personaljourneybox">
-        <div class="perheader">
-
-          <img src="#" alt="profilepic">
-          <div>
-            <div class="name">Misono Mika</div>
-            <div class="year">ปี 2</div>
-          </div>
-
+    <nav class="navbar">
+        <div class="logo">
+            <img src="resources/cstulogo.png" alt="Logo" class="logo-img">
         </div>
+        <ul class="navlinks">
+            <li><a href="homepage.html" class="nav-links" onclick="setActive(this)">Home</a></li>
+            <li><a href="ourjourney.html" class="nav-link" onclick="setActive(this)">Our Journey Highlight</a></li>
+            <li><a href="ourfuture.html" class="nav-link" onclick="setActive(this)">Our Future Highlight</a></li>
+        </ul>
+    </nav>
 
-        <div class="description">
-          <p>    Student of Trinity Integrated Academy and the former leader of "Pater", one of the student unions that make up Trinity.
-             Mika is a former member of the Tea Party and is also a childhood friend of its leader, Nagisa. However, 
-             because of their opposing political positions, they make a clear distinction between their public and private lives. 
-             Mika always presents a happy smile and innocent appearance, but she seems to be troubled by something she's unable to confide in others.</p>
-        </div>
+    <p class="topic"> OUR JOURNEY START HERE </p>
+    <div id="pageline"></div>
 
-        <p>Year</p>
-
-        <div class="timeline">
-            <div class="steps">
-            <div class="circle">✔</div>
-            <div class="circle">1</div>
-            <div class="circle">2</div>
-            <div class="circle">3</div>
-            <div class="circle">4</div>
+    <div class="progress-bar-component">
+        <div class="paragraph-container">
+            <div class="pacon">
+                <p id="paragraph"></p>
+            </div>
+            <div class="Pa-container">
+                <div class="step">
+                    <span class="circle" data-step="1">1</span>
+                    <span class="circle" data-step="2">2</span>
+                    <span class="circle" data-step="3">3</span>
+                    <span class="circle" data-step="4">4</span>
+                    <div class="progress">
+                        <span class="indicator"></span>
+                    </div>
+                </div>
+                <br>
+                <div class="button-container">
+                    <button id="prevBtn" disabled>Last year</button>
+                    <button id="nextBtn">Next year</button>
+                </div>
             </div>
         </div>
-        
     </div>
 
+    <div id="pageline"></div>
+    <p class="topic"> OUR JOURNEY STOP HERE </p>
 
-</div>
-
-<div id="pageline"></div>
-<p class ="topic"> OUR JOURNEY STOP HERE </p>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
