@@ -14,6 +14,11 @@ body{
     background-repeat: no-repeat;
     background-color: black;
 }
+main {
+    margin-top: 120px; /* กันไม่ให้ถูก Navbar ทับ */
+    width: 100%;
+    padding: 0 20px;
+}
 
 /* navbar navbar navbar navbar navbar navbar navbar*/
 .navbar {
@@ -59,6 +64,16 @@ body{
     font-size: 2rem;
     margin-bottom: 20px;
     color: #fff;
+    position: relative;
+}
+.about-section h1:after{
+    content: '';
+    display: block;
+    width: 1100px;
+    height: 3px;
+    background-color: #fff;
+    margin: 10px auto 0;
+    margin-top: 20px;
 }
 .about-section h2 {
     font-size: 1.8rem;
@@ -68,4 +83,40 @@ body{
 .about-section h3 {
     font-size: 1.2rem;
     color: #aaa;
+}
+
+/*profile and title section*/
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-text {
+    background-color: #222;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+.profile-text h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #363636;
+}
+.profile-text p {
+    font-size: 0.9rem;
+    color: #000000;
+}
+.profile-title, .box-of-text {
+    background-color: #8f8f8f;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
 }
