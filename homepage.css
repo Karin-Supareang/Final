@@ -134,7 +134,7 @@ select {
 
 /* ปุ่ม submit */
 input[type=submit] {
-  width: 30%; /* ปรับความกว้างของปุ่ม */
+  width:150px ; /* ปรับความกว้างของปุ่ม */
   background-color: #FF8c00;
   color: white;
   cursor: pointer;
@@ -151,7 +151,7 @@ input[type=submit] {
   text-align: left;
   width: 1000px; /* กำหนดความกว้างของฟอร์ม */
   margin: 0 auto; /* จัดฟอร์มให้อยู่กลางหน้า */
-  margin-top: 10px;
+  margin-top: 100px;
 }
 
 .Form_text{
@@ -160,7 +160,7 @@ input[type=submit] {
 }
 
 .Form_text p{
-  color: #ccc;
+  color: #5a5a5a;
 }
 
 
@@ -246,5 +246,9 @@ input[type=submit] {
   height: 6px;
   margin: 50px;
   margin-top: 240px;
+  margin-bottom: 70px;
+}
+.banner{
+  margin-top: -120px;
   margin-bottom: 70px;
 }
