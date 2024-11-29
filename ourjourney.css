@@ -164,16 +164,16 @@ figure img {
 }
 
 .pacon {
+  margin-left: -200px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 5px;
-  background: #f6f7fb;
-  width: 400px;
-  height: 50px;
+  margin-bottom: -30px;
+  width: 780px;
+  height: 250px;
+  padding-top: 50px;
+  padding-left: 30px;
   overflow-y: auto; /* Enables vertical scrolling */
-  max-height: 150px; /* Set a max height */
-  position: relative;
+ 
 }
 
 /* Custom scrollbar styles */
@@ -324,4 +324,33 @@ figure img {
     text-align: center;
   }
 }
+
 /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
+/*for testing box*/
+.misonoM
+{
+  z-index: 0;
+  width: 900px;
+  height: 500px;
+  background: #f1f1f1;
+  padding-top: 100px;
+  border-radius: 20px;
+}
+.person-profile{
+  display: flex;
+  align-items: center;
+}
+.individual
+{
+  position: relative;
+  border-radius: 50px;
+  top: -10px; 
+  left: 50px;
+  height: 50px;
+  width: 50px;
+  background: #4F378A;
+}
+.name1
+{
+ margin-left: 60px;
+}

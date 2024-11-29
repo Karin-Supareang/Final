@@ -1,5 +1,12 @@
 // Paragraphs to display
 const paragraphs = [
+    "year 1\n"+
+    "This is the first paragraph. It gives an overview of the topic."+
+    "Dashing forth into the cloak of night, with the illustrious composition"+
+    " performed by McCency in collaboration with the esteemed Konsa."+
+    "This is the first paragraph. It gives an overview of the topic."+
+    "Departed with a measure of tranquility, assured by the presence of your esteemed companionship,"+
+    "at the moment when the catastrophic force of the atomic bomb was irrevocably secured."+
     "This is the first paragraph. It gives an overview of the topic.",
     "Here is the second paragraph, providing more details and examples.",
     "The third paragraph includes further elaboration and analysis.",
