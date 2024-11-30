@@ -8,17 +8,20 @@
 .josefin {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
+  font-size: 40px;
   font-weight: 500px;
   font-style: normal;
   color: white;
 }
 .prompt-reg {
   font-family: "Prompt", sans-serif;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
 }
 .prompt-bold {
   font-family: "Prompt", sans-serif;
+  font-size: 18px;
   font-weight: 800;
   font-style: normal;
 }
@@ -112,9 +115,6 @@ body {
   .duty {
     margin: 0; /* ลบ margin เริ่มต้น */
     }
-
-
-
 /* ฟอร์มทั้งหมด */
 input[type=text],
 select,textarea,
@@ -127,11 +127,9 @@ input[type=submit] {
   box-sizing: border-box;
   background-color: #ccc;
 }
-
 select {
   width: 100%;
 }
-
 /* ปุ่ม submit */
 input[type=submit] {
   width:150px ; /* ปรับความกว้างของปุ่ม */
@@ -140,8 +138,6 @@ input[type=submit] {
   cursor: pointer;
   float: right;
 }
-
-
 /* container */
 .Form_card {
   border-radius: 20px;
@@ -153,17 +149,13 @@ input[type=submit] {
   margin: 0 auto; /* จัดฟอร์มให้อยู่กลางหน้า */
   margin-top: 100px;
 }
-
 .Form_text{
   text-align: center;
   padding: 20px;
 }
-
 .Form_text p{
   color: #5a5a5a;
 }
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -174,32 +166,36 @@ input[type=submit] {
     height: 100px;
     margin-bottom: 200px;
 }
-
 .logo {
     display: flex;
     align-items: center;
     height: 90px;
 }
-
 .logo-img {
     object-fit: contain;
     width:143px;
     height: 143px;
 }
-
-.navlinks {
+.top-navlinks {
     display: flex;
     text-decoration: none;
     list-style: none;
-
     background: rgb(223,223,223, 0.5);
-    padding: 35px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding:35px 10px;
     border-radius: 40px; 
     margin-top: 35px;
     margin-right: 2.5%;
     font-weight: bold;
+}
+.bottom-navlinks {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  background: rgb(223,223,223, 0.5);
+  padding:35px 10px;
+  border-radius: 40px; 
+  margin: 35px 2.5%;
+  font-weight: bold;
 }
 .nav-links {
   text-decoration: none;
@@ -212,6 +208,7 @@ input[type=submit] {
   padding: 25px 35px 25px;
   margin-left: 5px;
   margin-right: 60px;
+  
 }
 .nav-link {
   text-decoration: none;
@@ -224,9 +221,6 @@ input[type=submit] {
   padding: 25px;
   margin: 5px;
 }
-
-
-
 .topic {
   font-family: 'Inter';
   font-size: 64px;
@@ -241,7 +235,7 @@ input[type=submit] {
   margin-bottom: 240px;
 }
 #bottompageline {
-  width: 90%;
+  width: 130%;
   background-color: #ffffff;
   height: 6px;
   margin: 50px;
@@ -251,4 +245,55 @@ input[type=submit] {
 .banner{
   margin-top: -120px;
   margin-bottom: 70px;
+}
+
+@media screen and (min-width:781px) and (max-width:1023px){
+  body{
+    padding-bottom: 100px;
+  }
+  .top-navlinks .nav-link{
+    font-size: 10px;
+  }
+  .josefin{
+    font-size: 25px;
+  }
+  .container .prompt-exb{
+    font-size: 40px;
+  }
+  .Detail .prompt-reg{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .banner img{
+    width: 500px;
+  }
+  #pageline {
+    margin-bottom: 100px;
+  }
+  .card {
+    width: 700px;
+    height: 200px;
+  }
+  .card img{
+    width: 25%;
+  }
+  .content .duty {
+    width: 100%;
+  }
+  .content .duty .prompt-reg{
+    font-size: 15px;
+    width: 100%;
+  }
+  .Form_card{
+    width: 700px;
+  }
+  .Form_card .prompt-reg{
+    font-size: 16px;
+  }
+  #bottompageline{
+    margin-top: 100px;
+  }
+  .bottom-navlinks .nav-link{
+    font-size: 14px;
+  }
 }
