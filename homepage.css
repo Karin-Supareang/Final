@@ -1,0 +1,254 @@
+@import url('https://fonts.cdnfonts.com/css/motiva-sans');
+
+*{margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+.josefin {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  color: white;
+}
+.prompt-reg {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.prompt-bold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.prompt-exb {
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 55%, rgba(77,0,0,1) 75%, rgba(104,0,0,1) 90%);
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+  .container {
+    display: flex;          /* จัดวางแนวนอนให้อยู่ตรงกลาง */
+    align-items: center;    /* จัดวางแนวตั้งให้อยู่ตรงกลาง */
+    height: 100vh;          /* ให้ container เต็มความสูงของหน้าจอ */
+    text-align: center;     /* จัดข้อความให้อยู่ตรงกลาง */
+    flex-direction: column; /* จัดเรียงให้แนวตั้ง */
+    color: #f9f9f9;
+    gap: 30px;
+  }
+
+  .container h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: 1000px;
+    height: 700px;
+    color: #000000;
+    background-color: #f9f9f9;
+    border-radius: 100px 10px 10px 100px;       /* เพิ่มความโค้งมน */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    display: flex;                              /* ใช้ Flexbox เพื่อจัดวางข้อความ */
+    justify-content: space-between;             /* ข้อความอยู่ซ้าย-ขวา */
+    align-items: center;                        /* จัดให้ข้อความอยู่กลางแนวตั้ง */
+    padding: 10px 20px;
+  }
+
+  .card img{
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .content {
+    display: flex;   /* จัดวางให้เป็นสองฝั่ง */
+    width: 100%;    /* ใช้พื้นที่ทั้งหมดของการ์ด */
+    padding: 0px;
+  }
+
+  .content p{
+    font-size: 25px;
+    margin: 2.5px;
+  }
+  
+  .content .duty p{
+    margin: 0;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 20px;
+  }
+
+  .content .duty{
+    background-color: #ffd30e;
+    padding: 10px;
+    width: 760px;
+    border-radius: 100px;
+    margin-top: 3px;
+  }
+
+
+  .Detail {
+    display: flex;            /* ใช้ Flexbox เพื่อจัด layout */
+    flex-direction: column;   /* จัดเรียงในแนวตั้ง */
+    align-items: flex-start;  /* จัดข้อความให้เริ่มต้นที่ฝั่งซ้าย */
+  }
+  
+  h2 {
+    margin: 0; /* ลบ margin เริ่มต้นที่อาจทำให้ระยะห่างดูผิดปกติ */
+  }
+  
+  .duty {
+    margin: 0; /* ลบ margin เริ่มต้น */
+    }
+
+
+
+/* ฟอร์มทั้งหมด */
+input[type=text],
+select,textarea,
+input[type=submit] {
+  width: 100%; /* ให้เต็ม container */
+  padding: 10px 20px;
+  margin-bottom: 16px; /* ระยะห่างระหว่างแต่ละอัน */
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+
+select {
+  width: 100%;
+}
+
+/* ปุ่ม submit */
+input[type=submit] {
+  width:150px ; /* ปรับความกว้างของปุ่ม */
+  background-color: #FF8c00;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+
+
+/* container */
+.Form_card {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #000000;
+  text-align: left;
+  width: 1000px; /* กำหนดความกว้างของฟอร์ม */
+  margin: 0 auto; /* จัดฟอร์มให้อยู่กลางหน้า */
+  margin-top: 100px;
+}
+
+.Form_text{
+  text-align: center;
+  padding: 20px;
+}
+
+.Form_text p{
+  color: #5a5a5a;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-top: 70px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 200px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.logo-img {
+    object-fit: contain;
+    width:143px;
+    height: 143px;
+}
+
+.navlinks {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+    background: rgb(223,223,223, 0.5);
+    padding: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px; 
+    margin-top: 35px;
+    margin-right: 2.5%;
+    font-weight: bold;
+}
+.nav-links {
+  text-decoration: none;
+  color:black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  padding: 25px 35px 25px;
+  margin-left: 5px;
+  margin-right: 60px;
+}
+.nav-link {
+  text-decoration: none;
+  color:black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  padding: 25px;
+  margin: 5px;
+}
+
+
+
+.topic {
+  font-family: 'Inter';
+  font-size: 64px;
+  text-align: center;
+}
+#pageline {
+  width: 90%;
+  background-color: #ffffff;
+  height: 6px;
+  margin: 50px;
+  margin-top: 70px;
+  margin-bottom: 240px;
+}
+#bottompageline {
+  width: 90%;
+  background-color: #ffffff;
+  height: 6px;
+  margin: 50px;
+  margin-top: 240px;
+  margin-bottom: 70px;
+}
+.banner{
+  margin-top: -120px;
+  margin-bottom: 70px;
+}
