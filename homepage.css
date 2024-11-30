@@ -313,7 +313,6 @@ input[type=submit] {
   .logo-img {
     width: 80px;
     height: 80px;
-    
   }
   .top-navlinks{
     padding: 0px;
@@ -345,15 +344,16 @@ input[type=submit] {
   .Detail .prompt-reg{
     font-size: 8px;
     font-weight: 400;
+    text-align: left;
   }
   .banner img{
-    width: 350px;
+    width: 300px;
   }
   #pageline {
     margin-bottom: 70px;
   }
   .card {
-    width: 350px;
+    width: 300px;
     height: 1000px;
   }
   .card img{
@@ -363,9 +363,10 @@ input[type=submit] {
   }
   .content .duty {
     width: 100%;
+    padding: 5px;
   }
   .content .duty .prompt-reg{
-    font-size: 10px;
+    font-size: 6px;
     width: 100%;
   }
   .Form_card{
