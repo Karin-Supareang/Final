@@ -1,6 +1,5 @@
-// Paragraphs to display
-const paragraphs = [
-    "year 1\n"+
+const paragraphs = [ //first person can use this one
+    "year 1 :\n"+
     "This is the first paragraph. It gives an overview of the topic."+
     "Dashing forth into the cloak of night, with the illustrious composition"+
     " performed by McCency in collaboration with the esteemed Konsa."+
@@ -8,10 +7,17 @@ const paragraphs = [
     "Departed with a measure of tranquility, assured by the presence of your esteemed companionship,"+
     "at the moment when the catastrophic force of the atomic bomb was irrevocably secured."+
     "This is the first paragraph. It gives an overview of the topic.",
-    "Here is the second paragraph, providing more details and examples.",
+    "Let me tell you the story when the level 600 school gyatt walked passed me, I was in class drinking my grimace rizz shake from ohio during my rizzonomics class when all of the sudden this crazy ohio bing chilling gyatt got sturdy, past my class. I was watching kai cenat hit the griddy on twitch. This is when I let my rizz take over and I became the rizzard of oz. I screamed, look at this bomboclat gyatt",
     "The third paragraph includes further elaboration and analysis.",
     "Finally, the fourth paragraph concludes the discussion."
 ];
+
+const second_person_info = [];
+const third_person_info = [];
+const forth_person_info = [];
+const fifth_person_info = [];
+const sixth_person_info = [];
+const seventh_person_info = [];
 
 let currentIndex = 0; // Tracks the current step
 
