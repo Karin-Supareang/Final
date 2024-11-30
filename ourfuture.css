@@ -77,12 +77,114 @@ body {
   padding: 25px;
   margin: 5px;
 }
+
+.topic {
+  font-family: 'Inter';
+  font-size: 64px;
+  text-align: center;
+  color: #ffffff;
+}
 #pageline {
-    width: 90%;
-    background-color: #ffffff;
-    height: 6px;
-    margin: 50px;
-    margin-top: 70px;
-    margin-bottom: 240px;
+  width: 90%;
+  background-color: #ffffff;
+  height: 6px;
+  margin: 50px;
+  margin-top: 70px;
+  margin-bottom: 240px;
+}
+#bottompageline {
+  width: 90%;
+  background-color: #ffffff;
+  height: 6px;
+  margin: 50px;
+  margin-top: 240px;
+  margin-bottom: 70px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+article {  
+  background-color: #e7e4e4;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  padding: 70px;
+  max-width: 100%;
+  height: fit-content;
+  margin: 3%;
+  margin-bottom: 20px;
+}
+figure {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+figure img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #4F378A;
+}
+
+.name {
+  font-size: 24px;
+}
+
+.description {
+  font-family: 'Kanit';
+  padding-left: 100px;
+  padding-right: 40px;
+  font-size: 20px;
+  color: #555;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+
+@media screen and (max-width: 1024px) 
+{
+    
+}
+
+@media screen and (max-width: 768px) 
+{
+    
+}
+
+
+@media screen and (max-width: 412px) {
+ 
+  .logo-img {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
   }
-  /*เนื้อความ*/
+  
+  .topic {
+    font-size: 20px;
+    margin: 20px;
+  }
+  #pageline {
+    height: 1px;
+  }
+  article {
+    padding: 20px;
+    margin: 30px;
+  }
+
+  figure {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .description {
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+}

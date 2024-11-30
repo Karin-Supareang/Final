@@ -41,41 +41,45 @@ body {
 }
 
 .navlinks {
-    display: flex;
-    text-decoration: none;
-    list-style: none;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
 
-    background: rgb(223,223,223, 0.5);
-    padding: 35px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 40px; 
-    margin-top: 35px;
-    margin-right: 2.5%;
-    font-weight: bold;
+  background: rgb(223,223,223, 0.5);
+  padding: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px; 
+  margin-top: 35px;
+  margin-right: 2.5%;
+  font-weight: bold;
 }
-.nav-links {
-  text-decoration: none;
-  color:black;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  background-color: #ffffff;
-  border-radius: 40px;
-  padding: 25px 35px 25px;
-  margin-left: 5px;
-  margin-right: 60px;
+.nav-link1 {
+text-decoration: none;
+color:black;
+text-align: center;
+font-family: "Open Sans", sans-serif;
+font-size: 20px;
+background-color: #ffffff;
+border-radius: 40px;
+padding: 25px 35px 25px;
+margin-left: 5px;
+margin-right: 60px;
 }
-.nav-link {
-  text-decoration: none;
-  color:black;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  background-color: #ffffff;
-  border-radius: 40px;
-  padding: 25px;
-  margin: 5px;
+.nav-link2,.nav-link3 {
+text-decoration: none;
+color:black;
+text-align: center;
+font-family: "Open Sans", sans-serif;
+font-size: 20px;
+background-color: #ffffff;
+border-radius: 40px;
+padding: 25px;
+margin: 5px;
+white-space: nowrap;
+}
+.navbar a:hover {
+background-color: #ffffffcc;
 }
 /* navbar navbar navbar navbar navbar navbar navbar*/
 
@@ -151,127 +155,7 @@ figure img {
 
 /* Component container */
 /* Component container */
-.progress-bar-component {
-  max-width: 400px;
-  margin: 0 auto;
-}
 
-/* Paragraph section */
-.paragraph-container {
-  width: 410px;
-  height: 200px;
-
-}
-
-.pacon {
-  margin-left: -200px;
-  display: flex;
-  padding: 5px;
-  margin-bottom: -30px;
-  width: 780px;
-  height: 250px;
-  padding-top: 50px;
-  padding-left: 30px;
-  overflow-y: auto; /* Enables vertical scrolling */
- 
-}
-
-/* Custom scrollbar styles */
-.pacon::-webkit-scrollbar {
-  width: 10px; /* Set width of vertical scrollbar */
-}
-
-.pacon::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Light gray track */
-  border-radius: 10px;
-}
-
-.pacon::-webkit-scrollbar-thumb {
-  background: #bd0303; /* Gray thumb */
-  border-radius: 10px;
-}
-
-.pacon::-webkit-scrollbar-thumb:hover {
-  background: #800606; /* Darker thumb on hover */
-}
-
-
-.Pa-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  max-width: 400px;
-  width: 100%;
-  padding-top: 10px;
-}
-
-/* Step section */
-.step {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-
-.circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 30px;
-  width: 30px;
-  font-size: 22px;
-  border-radius: 50%;
-  background: #fff;
-  border: 3px solid red; /* Default red border for incomplete steps */
-}
-
-.circle.completed {
-  background: red;
-  color: white;
-  border-color: red; /* Matches fill color */
-}
-
-/* Progress bar styling */
-.step .progress {
-  position: absolute;
-  height: 5px;
-  width: 100%;
-  background: rgb(232, 230, 230);
-  z-index: -1;
-}
-
-.progress .indicator {
-  position: absolute;
-  height: 100%;
-  width: 0%;
-  background: red;
-  transition: width 0.3s ease;
-}
-
-/* Buttons */
-.button-container {
-  display: flex;
-  gap: 20px;
-}
-
-.button-container button {
-  padding: 8px 25px;
-  background: red;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 400;
-  cursor: pointer;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-}
-
-.button-container button:disabled {
-  background: rgb(255, 143, 143);
-  cursor: not-allowed;
-}
 
 /* for box only for box only for box only for box only for box only for box only for box only */
 
@@ -293,21 +177,59 @@ figure img {
 
 
 @media screen and (max-width: 412px) {
- 
-  .logo-img {
-    width: 90px;
-    height: 90px;
-    padding: 10px;
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 350px;
+    
+  } 
+
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 35px;
+    max-width: 90%;
+    border-radius: 20px;
+  }
+
+  .nav-link1 {
+    font-size: 15px;
+    background-color: #ffffff;
+    padding: 10px 120px;
+    margin: 0px;
+    width: 25%;
+  }
+  .nav-link2 {
+    font-size: 15px;
+    padding: 10px 60px;
+    margin: 0px;
+  }
+  .nav-link3 {
+    font-size: 15px;
+    padding: 10px 65px;
+    margin: 0px;
+  }
+  .topic {
+    font-size: 23px;
+  }
+  #pageline, #bottompageline {
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
   
-  .topic {
-    font-size: 20px;
-    margin: 20px;
-  }
-  #pageline {
-    height: 1px;
-  }
-  article {
+  main 
+  {
     padding: 20px;
     margin: 30px;
   }
@@ -327,7 +249,120 @@ figure img {
 
 /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
 /*for testing box*/
-.misonoM
+
+/*handdle all the messes for displaying containing within the white box|| didnt have to be change*/
+.progress-bar-component {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Paragraph container for progressbar and button. the name
+is quite misleading. i know. || didnt have to be change*/
+.paragraph-container {
+  width: 410px;
+  height: 200px;
+
+}
+
+/*For changing where the text will be display. edid margin if you wish*/
+.pacon {
+  margin-left: -200px;
+  display: flex;
+  padding: 5px;
+  margin-bottom: -30px;
+  width: 780px;
+  height: 200px;
+  padding-top: 50px;
+  padding-left: 30px;
+  overflow-y: auto; 
+ 
+}
+
+
+/*for containing. again with the name. || didnt have to be change*/
+.Pa-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  max-width: 400px;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 48px;
+}
+
+/* Please don't touch this */
+.step {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/*For a circle to truly embody its essence, what must it possess to attain such a distinction?*/
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  font-size: 22px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid tomato; /* A customary crimson border to signify unfulfilled steps */
+}
+
+/*You see tha fancy red circle that jump around? here is the part*/
+.circle.completed {
+  background: tomato;
+  color: white;
+  border-color: tomato; /* Harmonizes with the hue of the fill */
+}
+
+/* For progress bar in the state of repose, feel free to tailor the progress bar to your liking. */
+.step .progress {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: rgb(194, 194, 194);
+  z-index: -1;
+}
+
+/*For animation when progress bar changing in one state to the anther*/
+.progress .indicator {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  background: tomato;
+  transition: width 0.3s ease;
+}
+
+/* Yes || change if you wish*/
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+/*Configuration of Buttons*/
+.button-container button {
+  padding: 8px 25px;
+  background: tomato;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+/*Got update by our esteemed companion, JavaScript, indicating that the user is to be withheld from proceeding with any further actions.*/
+.button-container button:disabled {
+  background: rgb(255, 143, 143);
+  cursor: not-allowed;
+}
+/*the white box that contain everything ||customabley*/
+.personInfoDisplaying
 {
   z-index: 0;
   width: 900px;
@@ -335,11 +370,15 @@ figure img {
   background: #f1f1f1;
   padding-top: 100px;
   border-radius: 20px;
+  margin: 5px;
 }
+/*Da*/
 .person-profile{
   display: flex;
   align-items: center;
 }
+
+/*profile picture configuration*/
 .individual
 {
   position: relative;
@@ -350,7 +389,9 @@ figure img {
   width: 50px;
   background: #4F378A;
 }
+/*Waiting for further improvement*/
 .name1
 {
  margin-left: 60px;
 }
+

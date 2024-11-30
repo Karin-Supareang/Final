@@ -13,6 +13,13 @@
   font-style: normal;
   color: white;
 }
+.prompt-regjosh{
+  font-family: "Prompt", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
 .prompt-reg {
   font-family: "Prompt", sans-serif;
   font-size: 18px;
@@ -235,7 +242,7 @@ input[type=submit] {
   margin-bottom: 240px;
 }
 #bottompageline {
-  width: 130%;
+  width: 90%;
   background-color: #ffffff;
   height: 6px;
   margin: 50px;
@@ -256,6 +263,9 @@ input[type=submit] {
   }
   .josefin{
     font-size: 25px;
+  }
+  .prompt-regjosh{
+    font-size: 16px;
   }
   .container .prompt-exb{
     font-size: 40px;
@@ -281,7 +291,7 @@ input[type=submit] {
     width: 100%;
   }
   .content .duty .prompt-reg{
-    font-size: 15px;
+    font-size: 16px;
     width: 100%;
   }
   .Form_card{
