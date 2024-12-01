@@ -123,6 +123,14 @@ article {
   margin: 3%;
   margin-bottom: 20px;
 }
+.flog-img {
+  width: 300px; /* ความกว้าง */
+  height: auto; /* ให้ความสูงปรับตามสัดส่วน */
+  margin: 20px auto; /* ระยะห่างด้านบนและด้านล่าง */
+  display: block; /* ทำให้จัดวางตรงกลางใน container */
+  border-radius: 10px; /* มุมโค้ง */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงาสำหรับภาพ */
+}
 figure {
   display: flex;
   align-items: center;
