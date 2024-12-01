@@ -236,13 +236,13 @@ h3 {
 /*Configuration of Buttons*/
 .button-container button {
   padding: 13px 50px;
-  margin-top: 30px;
+  margin-top: 35px;
   background: tomato;
   border: none;
   border-radius: 20px;
   color: #fff;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: bold;
   cursor: pointer;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
