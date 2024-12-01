@@ -22,9 +22,9 @@
         <img src="resources\cstulogo.png" alt="Logo" class="logo-img">
     </div>
     <ul class="navlinks">
-        <li><a href="homepage.html" class="nav-link1">Home</a></li>
-        <li><a href="ourjourney.html" class="nav-link2">Our Journey Highlight</a></li>
-        <li><a href="ourfuture.html" class="nav-link3">Our Future Highlight</a></li>
+        <li><a href="homepage.html" class="nav-link1" onclick="setActive(this)">Home</a></li>
+        <li><a href="ourjourney.html" class="nav-link2" onclick="setActive(this)">Our Journey Highlight</a></li>
+        <li><a href="ourfuture.html" class="nav-link3" onclick="setActive(this)">Our Future Highlight</a></li>
     </ul>
 </nav>
 <p class ="topic"> OUR JOURNEY START HERE </p>
@@ -50,220 +50,260 @@
              </section>
             -->
                 <!-- ตรงนี้ใส่ไทม์ไลน์ในกล่องตามที่ออกแบบครับ--> 
-<!--คนที่ 1-->
-<div class="personInfoDisplaying">  
-        <div class="person-profile">
-            <img src="#" alt="profilepic">
-            <h3> Misono-Mika</h3>
-        </div>
-        <div class="description">
-            <p id="paragraph"></p> 
-        </div>
-            
-        <div class="Pa-container">
-            <div class="step">
-                <span class="circle" data-step="1">1</span>
-                <span class="circle" data-step="2">2</span>
-                <span class="circle" data-step="3">3</span>
-                <span class="circle" data-step="4">4</span>
-                <div class="progress">
-                    <span class="indicator"></span>
-                </div>
-            </div>
-            <br>
-            <div class="button-container">
-                <button id="prevBtn" disabled>Last year</button>
-                <button id="nextBtn">Next year</button>
-            </div>         
-        </div>
-</div> 
-<!--/คนที่ 1-->
+            <!--คนที่ 1-->
+                <!-- First Person -->
+                <div id="person1" class="personInfoDisplaying">
+                    <div class="person-profile">
+                        <img src="#" alt="profilepic">
+                        <h3> Misono-Mika</h3>
+                    </div>
+                    <div class="progress-bar-component">
+                        <div class="paragraph-container">
+                            <div class="pacon">
+                                <p id="person1paragraph"></p>
+                            </div>
+                            
+                   
+                            <div class="Pa-container">
+                                <div class="step">
+                                    <span class="person1circle circle">1</span>
+                                    <span class="person1circle circle">2</span>
+                                    <span class="person1circle circle">3</span>
+                                    <span class="person1circle circle">4</span>
+                                    <div class="progress">
+                                        <span class="person1indicator indicator"></span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button id="person1prevBtn"disabled>Last year</button>
+                                <button id="person1nextBtn">Next year</button>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- /First Person -->
 
-<!--/คนที่ 2-->
-<div class="personInfoDisplaying">  
-    <div class="person-profile">
-        <img src="#" alt="profilepic">
-        <h3> Misono-Mika</h3>
-    </div>
-    <div class="description">
-        <p id="secoundparagraph"></p> 
-    </div>
-        
-    <div class="Pa-container">
-        <div class="step">
-            <span class="secoundcircle circle" data-step="1">1</span>
-            <span class="secoundcircle circle" data-step="2">2</span>
-            <span class="secoundcircle circle" data-step="3">3</span>
-            <span class="secoundcircle circle" data-step="4">4</span>
-            <div class="progress">
-                <span class="secoundindicator indicator"></span>
-            </div>
-        </div>
-        <br>
-        <div class="button-container">
-            <button id="secoundprevBtn prevBtn" disabled>Last year</button>
-            <button id="secoundnextBtn nextBtn">Next year</button>
-        </div>         
-    </div>
-</div> 
-<!--/คนที่ 2-->
+                <!-- Second Person -->
+                <div id="person2" class="personInfoDisplaying">
+                    <div class="person-profile">
+                        <img src="#" alt="profilepic">
+                        <h3> Misono-Mika</h3>
+                    </div>
+                    <div class="progress-bar-component">
+                        <div class="paragraph-container">
+                            <div class="pacon">
+                                <p id="person2paragraph"></p>
+                            </div>
+                            
+                   
+                            <div class="Pa-container">
+                                <div class="step">
+                                    <span class="person2circle circle">1</span>
+                                    <span class="person2circle circle">2</span>
+                                    <span class="person2circle circle">3</span>
+                                    <span class="person2circle circle">4</span>
+                                    <div class="progress">
+                                        <span class="person2indicator indicator"></span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button id="person2prevBtn"disabled>Last year</button>
+                                <button id="person2nextBtn">Next year</button>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- /Second Person -->
 
-<!--/คนที่ 3-->
-<div class="personInfoDisplaying">  
-    <div class="person-profile">
-        <img src="#" alt="profilepic">
-        <h3> Misono-Mika</h3>
-    </div>
-    <div class="description">
-        <p id="thirdparagraph"></p> 
-    </div>
-        
-    <div class="Pa-container">
-        <div class="step">
-            <span class="thirdcircle circle" data-step="1">1</span>
-            <span class="thirdcircle circle" data-step="2">2</span>
-            <span class="thirdcircle circle" data-step="3">3</span>
-            <span class="thirdcircle circle" data-step="4">4</span>
-            <div class="progress">
-                <span class="thirdindicator indicator"></span>
-            </div>
-        </div>
-        <br>
-        <div class="button-container">
-            <button id="thirdprevBtn prevBtn" disabled>Last year</button>
-            <button id="thirdnextBtn nextBtn">Next year</button>
-        </div>         
-    </div>
-</div> 
-<!--/คนที่ 3-->
+                <!-- third Person -->
+                <div id="person3" class="personInfoDisplaying">
+                    <div class="person-profile">
+                        <img src="#" alt="profilepic">
+                        <h3> Misono-Mika</h3>
+                    </div>
+                    <div class="progress-bar-component">
+                        <div class="paragraph-container">
+                            <div class="pacon">
+                                <p id="person3paragraph"></p>
+                            </div>
+                            
+                   
+                            <div class="Pa-container">
+                                <div class="step">
+                                    <span class="person3circle circle">1</span>
+                                    <span class="person3circle circle">2</span>
+                                    <span class="person3circle circle">3</span>
+                                    <span class="person3circle circle">4</span>
+                                    <div class="progress">
+                                        <span class="person3indicator indicator"></span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button id="person3prevBtn"disabled>Last year</button>
+                                <button id="person3nextBtn">Next year</button>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
 
-<!--/คนที่ 4-->
-<div class="personInfoDisplaying">  
-    <div class="person-profile">
-        <img src="#" alt="profilepic">
-        <h3> Misono-Mika</h3>
-    </div>
-    <div class="description">
-        <p id="fourthparagraph"></p> 
-    </div>
-        
-    <div class="Pa-container">
-        <div class="step">
-            <span class="fourthcircle circle" data-step="1">1</span>
-            <span class="fourthcircle circle" data-step="2">2</span>
-            <span class="fourthcircle circle" data-step="3">3</span>
-            <span class="fourthcircle circle" data-step="4">4</span>
-            <div class="progress">
-                <span class="fourthindicator indicator"></span>
-            </div>
-        </div>
-        <br>
-        <div class="button-container">
-            <button id="fourthprevBtn prevBtn" disabled>Last year</button>
-            <button id="fourthnextBtn nextBtn">Next year</button>
-        </div>         
-    </div>
-</div> 
-<!--/คนที่ 4-->
+                <!-- /third Person -->
 
-<!--/คนที่ 5-->
-<div class="personInfoDisplaying">  
-    <div class="person-profile">
-        <img src="#" alt="profilepic">
-        <h3> Misono-Mika</h3>
-    </div>
-    <div class="description">
-        <p id="fifthparagraph"></p> 
-    </div>
-        
-    <div class="Pa-container">
-        <div class="step">
-            <span class="fifthcircle circle" data-step="1">1</span>
-            <span class="fifthcircle circle" data-step="2">2</span>
-            <span class="fifthcircle circle" data-step="3">3</span>
-            <span class="fifthcircle circle" data-step="4">4</span>
-            <div class="progress">
-                <span class="fifthindicator indicator"></span>
-            </div>
-        </div>
-        <br>
-        <div class="button-container">
-            <button id="fifthprevBtn prevBtn" disabled>Last year</button>
-            <button id="fifthnextBtn nextBtn">Next year</button>
-        </div>         
-    </div>
-</div> 
-<!--/คนที่ 5-->
+                <!-- Fourth Person -->
+                <div id="person4" class="personInfoDisplaying">
+                    <div class="person-profile">
+                        <img src="#" alt="profilepic">
+                        <h3> Misono-Mika</h3>
+                    </div>
+                    <div class="progress-bar-component">
+                        <div class="paragraph-container">
+                            <div class="pacon">
+                                <p id="person4paragraph"></p>
+                            </div>
+                            
+                   
+                            <div class="Pa-container">
+                                <div class="step">
+                                    <span class="person4circle circle">1</span>
+                                    <span class="person4circle circle">2</span>
+                                    <span class="person4circle circle">3</span>
+                                    <span class="person4circle circle">4</span>
+                                    <div class="progress">
+                                        <span class="person4indicator indicator"></span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button id="person4prevBtn"disabled>Last year</button>
+                                <button id="person4nextBtn">Next year</button>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- /Fourth Person -->
 
-<!--/คนที่ 6-->
-<div class="personInfoDisplaying">  
-    <div class="person-profile">
-        <img src="#" alt="profilepic">
-        <h3> Misono-Mika</h3>
-    </div>
-    <div class="description">
-        <p id="sixthparagraph"></p> 
-    </div>
-        
-    <div class="Pa-container">
-        <div class="step">
-            <span class="sixthcircle circle" data-step="1">1</span>
-            <span class="sixthcircle circle" data-step="2">2</span>
-            <span class="sixthcircle circle" data-step="3">3</span>
-            <span class="sixthcircle circle" data-step="4">4</span>
-            <div class="progress">
-                <span class="sixthindicator indicator"></span>
-            </div>
-        </div>
-        <br>
-        <div class="button-container">
-            <button id="sixthprevBtn prevBtn" disabled>Last year</button>
-            <button id="sixthnextBtn nextBtn">Next year</button>
-        </div>         
-    </div>
-</div> 
-<!--/คนที่ 6-->
+                <!-- fifth Person -->
+                <div id="person5" class="personInfoDisplaying">
+                    <div class="person-profile">
+                        <img src="#" alt="profilepic">
+                        <h3> Misono-Mika</h3>
+                    </div>
+                    <div class="progress-bar-component">
+                        <div class="paragraph-container">
+                            <div class="pacon">
+                                <p id="person5paragraph"></p>
+                            </div>
+                            
+                   
+                            <div class="Pa-container">
+                                <div class="step">
+                                    <span class="person5circle circle">1</span>
+                                    <span class="person5circle circle">2</span>
+                                    <span class="person5circle circle">3</span>
+                                    <span class="person5circle circle">4</span>
+                                    <div class="progress">
+                                        <span class="person5indicator indicator"></span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button id="person5prevBtn"disabled>Last year</button>
+                                <button id="person5nextBtn">Next year</button>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- /fifth Person -->
 
-<!--/คนที่ 7-->
-<div class="personInfoDisplaying">  
-    <div class="person-profile">
-        <img src="#" alt="profilepic">
-        <h3> Misono-Mika</h3>
-    </div>
-    <div class="description">
-        <p id="seventhparagraph"></p> 
-    </div>
-        
-    <div class="Pa-container">
-        <div class="step">
-            <span class="seventhcircle circle" data-step="1">1</span>
-            <span class="seventhcircle circle" data-step="2">2</span>
-            <span class="seventhcircle circle" data-step="3">3</span>
-            <span class="seventhcircle circle" data-step="4">4</span>
-            <div class="progress">
-                <span class="seventhindicator indicator"></span>
-            </div>
-        </div>
-        <br>
-        <div class="button-container">
-            <button id="seventhprevBtn prevBtn" disabled>Last year</button>
-            <button id="seventhnextBtn nextBtn">Next year</button>
-        </div>         
-    </div>
-</div> 
-<!--/คนที่ 7-->
+                <!-- Six Person -->
+                <div id="person6" class="personInfoDisplaying">
+                    <div class="person-profile">
+                        <img src="#" alt="profilepic">
+                        <h3> Misono-Mika</h3>
+                    </div>
+                    <div class="progress-bar-component">
+                        <div class="paragraph-container">
+                            <div class="pacon">
+                                <p id="person6paragraph"></p>
+                            </div>
+                   
+                            <div class="Pa-container">
+                                <div class="step">
+                                    <span class="person6circle circle">1</span>
+                                    <span class="person6circle circle">2</span>
+                                    <span class="person6circle circle">3</span>
+                                    <span class="person6circle circle">4</span>
+                                    <div class="progress">
+                                        <span class="person6indicator indicator"></span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button id="person6prevBtn" disabled>Last year</button>
+                                <button id="person6nextBtn">Next year</button>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- /Six Person -->
 
-</main>
+                <!--คนที่ 7-->
+                <div id="person7" class="personInfoDisplaying">
+                    <div class="person-profile">
+                        <img src="#" alt="profilepic">
+                        <h3> Misono-Mika</h3>
+                    </div>
+                    <div class="progress-bar-component">
+                        <div class="paragraph-container">
+                            <div class="pacon">
+                                <p id="person7paragraph"></p>
+                            </div>
+                            
+                   
+                            <div class="Pa-container">
+                                <div class="step">
+                                    <span class="person7circle circle">1</span>
+                                    <span class="person7circle circle">2</span>
+                                    <span class="person7circle circle">3</span>
+                                    <span class="person7circle circle">4</span>
+                                    <div class="progress">
+                                        <span class="person7indicator indicator"></span>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button id="person7prevBtn"disabled>Last year</button>
+                                <button id="person7nextBtn">Next year</button>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                        
+                   
+                
+                <!--/คนที่ 7-->
+                <!-- ตรงนี้ใส่ไทม์ไลน์ในกล่องตามที่ออกแบบครับ--> 
+   
+    </main>
 <!-- BOXBOXBOXBOXBOXBOXBOXBOXBOXBOXBOXBOXBOX--> 
-
+ 
 
 <!-- ท้ายหน้าท้ายหน้าท้ายหน้าท้ายหน้าท้ายหน้าท้ายหน้าท้ายหน้า --> 
     <div id="bottompageline"></div>
     <p class ="topic"> OUR JOURNEY STOP HERE </p>
     <ul class="navlinks">
-        <li><a href="homepage.html" class="nav-link1" >Home</a></li>
-        <li><a href="ourjourney.html" class="nav-link2" >Our Journey Highlight</a></li>
-        <li><a href="ourfuture.html" class="nav-link3" >Our Future Highlight</a></li>
+        <li><a href="homepage.html" class="nav-link1" onclick="setActive(this)">Home</a></li>
+        <li><a href="ourjourney.html" class="nav-link2" onclick="setActive(this)">Our Journey Highlight</a></li>
+        <li><a href="ourfuture.html" class="nav-link3" onclick="setActive(this)">Our Future Highlight</a></li>
     </ul>
 <!-- ท้ายหน้าท้ายหน้าท้ายหน้าท้ายหน้าท้ายหน้าท้ายหน้าท้ายหน้า -->
 
