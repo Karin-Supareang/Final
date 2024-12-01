@@ -14,6 +14,7 @@ body {
     background: linear-gradient(0deg, rgba(0,0,0,1) 55%, rgba(77,0,0,1) 75%, rgba(104,0,0,1) 90%);
     background-repeat: no-repeat;
     background-color: black;
+    
 }
 
 /* navbar navbar navbar navbar navbar navbar navbar*/
@@ -127,23 +128,6 @@ article {  /*อันนี้คือกล่อง*/
   margin-bottom: 20px;
 }
 
-figure {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
-figure img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: #4F378A;
-}
-
-.name {
-  font-size: 24px;
-}
-
 .description {
   font-family: 'Kanit';
   padding-left: 100px;
@@ -164,27 +148,27 @@ figure img {
   border-radius: 20px;
   margin: 5px;
 }
-/*Da*/
+
 .person-profile{
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
-/*profile picture configuration*/
-.individual
-{
+.person-profile img {
   position: relative;
-  border-radius: 50px;
   top: -10px; 
   left: 50px;
-  height: 50px;
-  width: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
   background: #4F378A;
 }
-/*Waiting for further improvement*/
-.name1
+
+h3
 {
- margin-left: 60px;
+  font-size: 24;
+  margin-left: 60px;
 }
 
 /* for box only for box only for box only for box only for box only for box only for box only */
@@ -207,7 +191,7 @@ figure img {
 
 
 @media screen and (max-width: 412px) {
-  
+
   .navbar {
     display: flex;
     flex-direction: column;
@@ -280,6 +264,8 @@ figure img {
 /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
 /*for testing box*/
 
+
+
 /*handdle all the messes for displaying containing within the white box|| didnt have to be change*/
 .progress-bar-component {
   max-width: 400px;
@@ -340,6 +326,7 @@ is quite misleading. i know. || didnt have to be change*/
   font-size: 22px;
   border-radius: 50%;
   background: #fff;
+ 
   border: 3px solid tomato; /* A customary crimson border to signify unfulfilled steps */
 }
 
@@ -371,7 +358,7 @@ is quite misleading. i know. || didnt have to be change*/
 /* Yes || change if you wish*/
 .button-container {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 /*Configuration of Buttons*/
 .button-container button {
