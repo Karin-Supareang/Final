@@ -2,7 +2,7 @@
 const data = {
     person1: [
        
-        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 1: Overview of the journeyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Hello Jeawawawawawwawaawawaaawawa. ",
+        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 1: Overview of the journey Hello Itch asgjfodfo ksask  sasasasas aaww sffsvddg Hurt Kakfoegkdokfdokdofkdspofkfkdovdkodkfo k Kumpf hekadkoskfofksepfkewwekfsmv eokewopkweopfkesofksopfewopkewewfsmvdvmojew kkwokfoekfeofkeokra. ",
         "ปี 2\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 2: A significant milestoneaaaa.",
         "ปี 3\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 3: Challenges faced.",
         "ปี 4\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 4: The conclusion."
