@@ -108,6 +108,8 @@ background-color: #ffffffcc;
 }
 
 /* for box only for box only for box only for box only for box only for box only for box only */
+/* for box only for box only for box only for box only for box only for box only for box only */
+/* for box only for box only for box only for box only for box only for box only for box only */
 main {
   display: flex;
   flex-direction: column;
@@ -124,7 +126,7 @@ article {  /*อันนี้คือกล่อง*/
   margin: 3%;
   margin-bottom: 20px;
 }
-/* pic name text year pic name year text pic name year text pic name year text*/
+
 figure {
   display: flex;
   align-items: center;
@@ -151,15 +153,12 @@ figure img {
   line-height: 1.7;
   text-align: justify;
 }
-/* pic name text year pic name year text pic name year text pic name year text*/
 
-/* Component container */
-/* Component container */
 
 
 /* for box only for box only for box only for box only for box only for box only for box only */
-
-
+/* for box only for box only for box only for box only for box only for box only for box only */
+/* for box only for box only for box only for box only for box only for box only for box only */
 
 
 
@@ -246,7 +245,6 @@ figure img {
     text-align: center;
   }
 }
-
 /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
 /*for testing box*/
 
