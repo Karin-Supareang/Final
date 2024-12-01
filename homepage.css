@@ -189,7 +189,7 @@ input[type=submit] {
     text-decoration: none;
     list-style: none;
     background: rgb(223,223,223, 0.5);
-    padding:35px 10px;
+    padding:35px 10px 32px;
     border-radius: 40px; 
     margin-top: 35px;
     margin-right: 2.5%;
@@ -205,6 +205,9 @@ input[type=submit] {
   margin: 35px 2.5%;
   font-weight: bold;
 }
+.navbar a:hover {
+  background-color: #ffffffcc;
+  }
 .nav-links {
   text-decoration: none;
   color:black;
