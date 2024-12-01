@@ -118,63 +118,133 @@ main {
   gap: 2px;
 }
 
-.description {
-  font-family: 'Kanit';
-  padding-left: 100px;
-  padding-right: 40px;
-  font-size: 20px;
-  color: #555;
-  line-height: 1.7;
-  text-align: justify;
-}
-
 .personInfoDisplaying
 {
   background-color: #f1f1f1;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
   z-index: 2;
-  width: 80%;
+  width: 85%;
   height: fit-content;
 
+  
   padding: 60px;
-  margin: 3%;
+  margin: 5%;
   padding-bottom: 50px;
   margin-bottom: 20px;
 }
 
-.person-profile{
+.person-profile {
   display: flex;
   align-items: center;
-  gap: 10px;
- 
+  gap: 30px;
 }
 
 .person-profile img {
-  
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: #4F378A;
 }
 h3 {
-  font-size: 24;
-}
-
-/* Paragraph container for progressbar and button. the name
-is quite misleading. i know. || didnt have to be change*/
-.paragraph-container {
-  width: 100%;
+  font-size: 24px;
+  font-weight: lighter;
 }
 /*For changing where the text will be display. edid margin if you wish*/
-.pacon {
+.description {
   font-family: 'Kanit';
-  padding-left: 190px;
-  padding-right: 40px;
-  font-size: 20px;
+  padding-left: 130px;
+  padding-right: 80px;
+  font-size: 21px;
   color: #555;
-  line-height: 1.7;
+  line-height: 1.8;
   text-align: justify;
+  width: 100%;
+}
+
+/*for testing box*/
+/*for containing. again with the name. || didnt have to be change*/
+.Pa-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  max-width: 400px;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 48px;
+}
+
+/* Please don't touch this */
+.step {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/*For a circle to truly embody its essence, what must it possess to attain such a distinction?*/
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  font-size: 22px;
+  border-radius: 50%;
+  background: #fff;
+ 
+  border: 3px solid tomato; /* A customary crimson border to signify unfulfilled steps */
+}
+
+/*You see tha fancy red circle that jump around? here is the part*/
+.circle.completed {
+  background: tomato;
+  color: white;
+  border-color: tomato; /* Harmonizes with the hue of the fill */
+}
+
+/* For progress bar in the state of repose, feel free to tailor the progress bar to your liking. */
+.step .progress {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: rgb(194, 194, 194);
+  z-index: -1;
+}
+
+/*For animation when progress bar changing in one state to the anther*/
+.progress .indicator {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  background: tomato;
+  transition: width 0.3s ease;
+}
+
+/* Yes || change if you wish*/
+.button-container {
+  display: flex;
+  gap: 40px;
+}
+/*Configuration of Buttons*/
+.button-container button {
+  padding: 8px 25px;
+  background: tomato;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+/*Got update by our esteemed companion, JavaScript, indicating that the user is to be withheld from proceeding with any further actions.*/
+.button-container button:disabled {
+  background: rgb(255, 143, 143);
+  cursor: not-allowed;
 }
 
 /* for box only for box only for box only for box only for box only for box only for box only */
@@ -268,99 +338,3 @@ is quite misleading. i know. || didnt have to be change*/
   }
 }
 /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
-/*for testing box*/
-
-
-
-/*handdle all the messes for displaying containing within the white box|| didnt have to be change*/
-.progress-bar-component {
-  max-width: 410px;
-  margin: 0 auto;
-}
-
-/*for containing. again with the name. || didnt have to be change*/
-.Pa-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  max-width: 400px;
-  width: 100%;
-  padding-top: 10px;
-  margin-top: 48px;
-}
-
-/* Please don't touch this */
-.step {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-
-/*For a circle to truly embody its essence, what must it possess to attain such a distinction?*/
-.circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 30px;
-  width: 30px;
-  font-size: 22px;
-  border-radius: 50%;
-  background: #fff;
- 
-  border: 3px solid tomato; /* A customary crimson border to signify unfulfilled steps */
-}
-
-/*You see tha fancy red circle that jump around? here is the part*/
-.circle.completed {
-  background: tomato;
-  color: white;
-  border-color: tomato; /* Harmonizes with the hue of the fill */
-}
-
-/* For progress bar in the state of repose, feel free to tailor the progress bar to your liking. */
-.step .progress {
-  position: absolute;
-  height: 5px;
-  width: 100%;
-  background: rgb(194, 194, 194);
-  z-index: -1;
-}
-
-/*For animation when progress bar changing in one state to the anther*/
-.progress .indicator {
-  position: absolute;
-  height: 100%;
-  width: 0%;
-  background: tomato;
-  transition: width 0.3s ease;
-}
-
-/* Yes || change if you wish*/
-.button-container {
-  display: flex;
-  gap: 40px;
-}
-/*Configuration of Buttons*/
-.button-container button {
-  padding: 8px 25px;
-  background: tomato;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 400;
-  cursor: pointer;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-}
-
-/*Got update by our esteemed companion, JavaScript, indicating that the user is to be withheld from proceeding with any further actions.*/
-.button-container button:disabled {
-  background: rgb(255, 143, 143);
-  cursor: not-allowed;
-}
-
-
-
