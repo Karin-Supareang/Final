@@ -19,9 +19,15 @@ const fifth_person_info = [];
 const sixth_person_info = [];
 const seventh_person_info = [];
 
-let currentIndex = 0; // Tracks the current step
+let secoundcurrentIndex = 0; 
+let thridcurrentIndex = 0;
+let fourthcurrentIndex = 0;
+let fifthcurrentIndex = 0;
+let sixthcurrentIndex = 0;
+let seventhcurrentIndex = 0;
+let currentIndex = 0;
 
-// Selectors for components
+
 const paragraphElement = document.getElementById('paragraph'); // Displays the current paragraph
 const prevBtn = document.getElementById('prevBtn'); // "Previous" button
 const nextBtn = document.getElementById('nextBtn'); // "Next" button
@@ -69,3 +75,28 @@ nextBtn.addEventListener('click', () => {
 
 // Initialize the component
 updateParagraph();
+
+
+const secoundparagraph = document.getElementById("secoundparagraph");
+const secoundprevBtn = document.getAnimations("secoundprevBtn");
+const secoundnextBtn = document.getElementById("secoundnextBtn");
+const secoundindicator = document.querySelector(".secoundindicator");
+const secoundcircle = document.querySelectorAll(".secoundcircle");
+
+function upDate_second_paragraph(){
+    secoundparagraph.textContent = second_person_info[secoundcurrentIndex];
+    secoundprevBtn.disabled = secoundcurrentIndex === 0;
+    secoundnextBtn.disabled = secoundcurrentIndex === second_person_info.length - 1;
+    updateSecondProgressBar()
+};
+
+function upDate_second_progressBar (){
+    secoundcircle.forEach((secoundcircle, index) => {
+        if (index <= secoundcurrentIndex) {
+            secoundcircle.classList.add('completed');
+        } else {
+            secoundcircle.classList.remove('completed');
+        }
+    });
+
+};
