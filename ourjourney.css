@@ -154,7 +154,38 @@ figure img {
   text-align: justify;
 }
 
+.personInfoDisplaying
+{
+  z-index: 0;
+  width: 900px;
+  height: 500px;
+  background: #f1f1f1;
+  padding-top: 100px;
+  border-radius: 20px;
+  margin: 5px;
+}
+/*Da*/
+.person-profile{
+  display: flex;
+  align-items: center;
+}
 
+/*profile picture configuration*/
+.individual
+{
+  position: relative;
+  border-radius: 50px;
+  top: -10px; 
+  left: 50px;
+  height: 50px;
+  width: 50px;
+  background: #4F378A;
+}
+/*Waiting for further improvement*/
+.name1
+{
+ margin-left: 60px;
+}
 
 /* for box only for box only for box only for box only for box only for box only for box only */
 /* for box only for box only for box only for box only for box only for box only for box only */
@@ -176,6 +207,7 @@ figure img {
 
 
 @media screen and (max-width: 412px) {
+  
   .navbar {
     display: flex;
     flex-direction: column;
@@ -359,37 +391,6 @@ is quite misleading. i know. || didnt have to be change*/
   background: rgb(255, 143, 143);
   cursor: not-allowed;
 }
-/*the white box that contain everything ||customabley*/
-.personInfoDisplaying
-{
-  z-index: 0;
-  width: 900px;
-  height: 500px;
-  background: #f1f1f1;
-  padding-top: 100px;
-  border-radius: 20px;
-  margin: 5px;
-}
-/*Da*/
-.person-profile{
-  display: flex;
-  align-items: center;
-}
 
-/*profile picture configuration*/
-.individual
-{
-  position: relative;
-  border-radius: 50px;
-  top: -10px; 
-  left: 50px;
-  height: 50px;
-  width: 50px;
-  background: #4F378A;
-}
-/*Waiting for further improvement*/
-.name1
-{
- margin-left: 60px;
-}
+
 
