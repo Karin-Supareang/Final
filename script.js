@@ -1,46 +1,47 @@
 // Paragraph data for each person
 const data = {
     person1: [
-        "First person - Year 1: Overview of the journey.",
-        "First person - Year 2: A significant milestone.",
-        "First person - Year 3: Challenges faced.",
-        "First person - Year 4: The conclusion."
+       
+        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 1: Overview of the journeyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Hello Jeawawawawawwawaawawaaawawa. ",
+        "ปี 2\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 2: A significant milestoneaaaa.",
+        "ปี 3\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 3: Challenges faced.",
+        "ปี 4\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 4: The conclusion."
     ],
     person2: [
-        "Second person - Year 1: Beginnings.",
-        "Second person - Year 2: Growth and learning.",
-        "Second person - Year 3: A memorable achievement.",
-        "Second person - Year 4: Reflection and future plans."
+        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 1: Beginnings.",
+        "ปี 2\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 2: Growth and learning.",
+        "ปี 3\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 3: A memorable achievement.",
+        "ปี 4\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 4: Reflection and future plans."
     ],
     person3: [
-        "First person - Year 1: Overview of the journey.",
-        "First person - Year 2: A significant milestone.",
-        "First person - Year 3: Challenges faced.",
-        "First person - Year 4: The conclusion."
+        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 1: Overview of the journey.",
+        "ปี 2\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 2: A significant milestone.",
+        "ปี 3\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 3: Challenges faced.",
+        "ปี 4\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 4: The conclusion."
     ],
     person4: [
-        "Second person - Year 1: Beginnings.",
-        "Second person - Year 2: Growth and learning.",
-        "Second person - Year 3: A memorable achievement.",
-        "Second person - Year 4: Reflection and future plans."
+        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 1: Beginnings.",
+        "ปี 2\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 2: Growth and learning.",
+        "ปี 3\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 3: A memorable achievement.",
+        "ปี 4\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 4: Reflection and future plans."
     ],
     person5: [
-        "Second person - Year 1: Beginnings.",
-        "Second person - Year 2: Growth and learning.",
-        "Second person - Year 3: A memorable achievement.",
-        "Second person - Year 4: Reflection and future plans."
+        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 1: Beginnings.",
+        "ปี 2\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 2: Growth and learning.",
+        "ปี 3\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 3: A memorable achievement.",
+        "ปี 4\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 4: Reflection and future plans."
     ],
     person6: [
-        "First person - Year 1: Overview of the journey.",
-        "First person - Year 2: A significant milestone.",
-        "First person - Year 3: Challenges faced.",
-        "First person - Year 4: The conclusion."
+        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 1: Overview of the journey.",
+        "ปี 2\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 2: A significant milestone.",
+        "ปี 3\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 3: Challenges faced.",
+        "ปี 4\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0First person - Year 4: The conclusion."
     ],
     person7: [
-        "Second person - Year 1: Beginnings.",
-        "Second person - Year 2: Growth and learning.",
-        "Second person - Year 3: A memorable achievement.",
-        "Second person - Year 4: Reflection and future plans."
+        "ปี 1\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 1: Beginnings.",
+        "ปี 2\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 2: Growth and learning.",
+        "ปี 3\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 3: A memorable achievement.",
+        "ปี 4\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Second person - Year 4: Reflection and future plans."
     ]
 };
 
