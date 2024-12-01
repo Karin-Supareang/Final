@@ -152,27 +152,32 @@ h3 {
 }
 /*For changing where the text will be display. edid margin if you wish*/
 .description {
-  font-family: 'Kanit';
   padding-left: 130px;
   padding-right: 80px;
   font-size: 21px;
   color: #555;
-  line-height: 1.8;
+  line-height: 1.9;
   text-align: justify;
   width: 100%;
 }
-
+#paragraph,#secoundparagraph,#thirdparagraph,#fourthparagraph,#fifthparagraph,#sixthparagraph,#seventhparagraph{
+  font-family: 'Kanit';
+  white-space: pre-line;
+}
 /*for testing box*/
 /*for containing. again with the name. || didnt have to be change*/
 .Pa-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 5px;
-  max-width: 400px;
+  max-width: 70%;
   width: 100%;
   padding-top: 10px;
-  margin-top: 48px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Please don't touch this */
@@ -189,9 +194,10 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
   height: 30px;
   width: 30px;
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 50%;
   background: #fff;
  
@@ -226,14 +232,14 @@ h3 {
 /* Yes || change if you wish*/
 .button-container {
   display: flex;
-  gap: 40px;
+  gap: 120px;
 }
 /*Configuration of Buttons*/
 .button-container button {
-  padding: 8px 25px;
+  padding: 13px 30px;
   background: tomato;
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
