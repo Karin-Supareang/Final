@@ -66,8 +66,8 @@ body {
   .card {
     width: 1000px;
     height: 700px;
-    color: #000000;
-    background-color: #f9f9f9;
+    color: #aaaaaa;
+    background-color: #2c2c2c;
     border-radius: 100px 10px 10px 100px;       /* เพิ่มความโค้งมน */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
     display: flex;                              /* ใช้ Flexbox เพื่อจัดวางข้อความ */
@@ -101,7 +101,8 @@ body {
   }
 
   .content .duty{
-    background-color: #ffd30e;
+    color: #ffffff;
+    background-color: #e74c3c;
     padding: 10px;
     width: 700px;
     border-radius: 100px;
@@ -133,7 +134,7 @@ input[type=submit] {
   border: 1px solid #ccc;
   border-radius: 40px;
   box-sizing: border-box;
-  background-color: #ccc;
+  background-color: #aaaaaa;
 }
 select {
   width: 100%;
@@ -141,7 +142,7 @@ select {
 /* ปุ่ม submit */
 input[type=submit] {
   width:150px ; /* ปรับความกว้างของปุ่ม */
-  background-color: #FF8c00;
+  background-color: #e74c3c;
   color: white;
   cursor: pointer;
   float: right;
@@ -149,9 +150,9 @@ input[type=submit] {
 /* container */
 .Form_card {
   border-radius: 20px;
-  background-color: #f2f2f2;
+  background-color: #2c2c2c;
   padding: 20px;
-  color: #000000;
+  color: #aaaaaa;
   text-align: left;
   width: 1000px; /* กำหนดความกว้างของฟอร์ม */
   margin: 0 auto; /* จัดฟอร์มให้อยู่กลางหน้า */
@@ -162,7 +163,7 @@ input[type=submit] {
   padding: 20px;
 }
 .Form_text p{
-  color: #5a5a5a;
+  color: #aaaaaa;
 }
 .navbar {
     display: flex;
@@ -184,53 +185,50 @@ input[type=submit] {
     width:143px;
     height: 143px;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background: rgba(77, 0, 0, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
 .top-navlinks {
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    background: rgb(223,223,223, 0.5);
-    padding:35px 10px 32px;
-    border-radius: 40px; 
-    margin-top: 35px;
-    margin-right: 2.5%;
-    font-weight: bold;
+  display: flex;
+  list-style: none;
+  gap: 0px;
+  background: rgba(243, 241, 241, 0.05);
+  padding: 15px 0px;
+  border-radius: 12px; 
 }
 .bottom-navlinks {
   display: flex;
-  text-decoration: none;
   list-style: none;
-  background: rgb(223,223,223, 0.5);
-  padding:35px 10px;
-  border-radius: 40px; 
-  margin: 35px 2.5%;
-  font-weight: bold;
+  gap: 20px;
+  background: rgba(243, 241, 241, 0.05);
+  padding: 15px 25px;
+  border-radius: 12px;
 }
-.navbar a:hover {
-  background-color: #ffffffcc;
+.navbar a:hover ,.bottom-navlinks a:hover{
+  background-color: #e74c3c;
+  transform: scale(1.05);
   }
-.nav-links {
+.nav-links, .nav-link {
   text-decoration: none;
-  color:black;
+  color: #aaaaaa;
   text-align: center;
+  background: transparent;
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  background-color: #ffffff;
-  border-radius: 40px;
-  padding: 25px 35px 25px;
+  border-radius: 12px;
+  padding: 12px 20px;
   margin-left: 5px;
   margin-right: 60px;
-  
-}
-.nav-link {
-  text-decoration: none;
-  color:black;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  background-color: #ffffff;
-  border-radius: 40px;
-  padding: 25px;
-  margin: 5px;
+  transition: 0.3s ease-in-out;  
+  transform: 0.3s ease-in-out;
 }
 .topic {
   font-family: 'Inter';
@@ -239,6 +237,7 @@ input[type=submit] {
 }
 #pageline {
   width: 90%;
+  border-radius: 12px;
   background-color: #ffffff;
   height: 6px;
   margin: 50px;
@@ -247,6 +246,7 @@ input[type=submit] {
 }
 #bottompageline {
   width: 90%;
+  border-radius: 12px;
   background-color: #ffffff;
   height: 6px;
   margin: 50px;
@@ -261,6 +261,7 @@ input[type=submit] {
 @media screen and (min-width:781px) and (max-width:1023px){
   .top-navlinks .nav-links{
     font-size: 16px;
+    padding: 12px 10px;
   }
   .top-navlinks .nav-link{
     font-size: 10px;
