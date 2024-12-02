@@ -96,7 +96,7 @@ transform: 0.3s ease-in-out;
 
 .topic {
   margin-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-family: 'Inter';
   font-size: 64px;
   text-align: center;
@@ -108,7 +108,7 @@ transform: 0.3s ease-in-out;
   background-color: #ffffff;
   height: 6px;
   margin: 50px;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 200px;
 }
 #bottompageline {
