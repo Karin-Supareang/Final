@@ -264,6 +264,7 @@ input[type=submit] {
     padding: 12px 10px;
   }
   .top-navlinks .nav-link{
+    padding: 12px 10px;
     font-size: 10px;
   }
   .josefin{
@@ -318,9 +319,12 @@ input[type=submit] {
     width: 80px;
     height: 80px;
   }
+  .navbar{
+    padding: 0px 10px;
+  }
   .top-navlinks{
     padding: 0px;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 15px;
   }
   .top-navlinks .nav-links{
     display: flex;
@@ -333,7 +337,7 @@ input[type=submit] {
   .top-navlinks .nav-link{
     display: flex;
     font-size: 8px;
-    padding: 10px 12px;
+    padding: 10px 10px;
     margin: 20px 10px;
   }
   .josefin{
@@ -391,16 +395,20 @@ input[type=submit] {
     margin-top: 70px;
   }
   .bottom-navlinks{
-    padding: 10px 10px;
+    padding: 0px 20px;
+    margin: 20px;
+    gap: 0px;
   }
   .bottom-navlinks .nav-links{
     display: flex;
     font-size: 16px;
-    padding: 20px 10px;
+    padding: 10px 5px;
+    margin: 0px 5px;
   }
   .bottom-navlinks .nav-link{
     display: flex;
     font-size: 10px;
-    padding: 16px 10px;
+    padding: 15px 5px;
+    margin: 0px 5px;
   }
 }
