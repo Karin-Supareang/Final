@@ -432,3 +432,36 @@ input[type=submit] {
       transform: translateX(0); /* ข้อความเลื่อนเข้ามาที่ตำแหน่งปกติ */
   }
 }
+@keyframes appear {
+  from {
+      opacity: 0;
+      scale: 0.5;
+  }
+  to {
+      opacity: 1;
+      scale: 1;
+  }
+}
+
+section {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  margin-bottom: 200px;
+
+}
+.title{
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 70px;
+}
+span{
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.group{
+  margin-bottom: 2300px;
+}
