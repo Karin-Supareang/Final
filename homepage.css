@@ -150,9 +150,9 @@ input[type=submit] {
 /* container */
 .Form_card {
   border-radius: 20px;
-  background-color: #2c2c2c;
+  background-color: #f0f0f0;
   padding: 20px;
-  color: #aaaaaa;
+  color: #343434;
   text-align: left;
   width: 1000px; /* กำหนดความกว้างของฟอร์ม */
   margin: 0 auto; /* จัดฟอร์มให้อยู่กลางหน้า */
@@ -220,7 +220,7 @@ input[type=submit] {
   }
 .nav-links, .nav-link {
   text-decoration: none;
-  color: #d0d0d0;
+  color: #aaaaaa;
   text-align: center;
   background: transparent;
   font-family: "Open Sans", sans-serif;
