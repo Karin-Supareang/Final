@@ -1,16 +1,13 @@
 :root {
   --transition-time: 0.3s ease-in-out;
 }
-
 @import url('https://fonts.cdnfonts.com/css/motiva-sans');
-
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
 }
-
 body {
     display: flex;
     flex-direction: column;
@@ -79,7 +76,7 @@ margin: 5px;
 white-space: nowrap;
 }
 .navbar a:hover {
-background-color: #ffffffcc;
+  background-color: #ffffffcc;
 }
 /* navbar navbar navbar navbar navbar navbar navbar*/
 
@@ -89,7 +86,7 @@ background-color: #ffffffcc;
   text-align: center;
   color: #ffffff;
 }
-#pageline {
+#pageline,#bottompageline {
   width: 90%;
   background-color: #ffffff;
   height: 6px;
@@ -98,10 +95,6 @@ background-color: #ffffffcc;
   margin-bottom: 240px;
 }
 #bottompageline {
-  width: 90%;
-  background-color: #ffffff;
-  height: 6px;
-  margin: 50px;
   margin-top: 240px;
   margin-bottom: 70px;
 }
@@ -115,7 +108,6 @@ main {
   align-items: center;
   gap: 2px;
 }
-
 .personInfoDisplaying
 {
   background-color: #f1f1f1;
@@ -128,6 +120,10 @@ main {
   margin: 5%;
   padding-bottom: 50px;
   margin-bottom: 5px;
+  transition: transform var(--transition-time);
+}
+.personInfoDisplaying:hover {
+  transform: translateY(-10px);
 }
 .person-profile {
   display: flex;
@@ -221,7 +217,7 @@ h3 {
 /*Configuration of Buttons*/
 .button-container button {
   padding: 17px 40px;
-  margin-top: 40px;
+  margin-top: 25px;
   background: tomato;
   border: none;
   border-radius: 20px;
@@ -229,7 +225,12 @@ h3 {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color var(--transition-time), transform var(--transition-time);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.button-container button:hover {
+  background: rgb(255, 91, 62);
+  transform: translateY(-5px);
 }
 .button-container button:disabled {
   background: rgb(255, 143, 143);
@@ -303,6 +304,7 @@ h3 {
     height: 3.5px;
   }
 }
+
 @media screen and (max-width: 780px) {
   .navbar {
     margin-bottom: 100px;
@@ -371,13 +373,14 @@ h3 {
     height: 3.5px;
   }
 }
+
 @media screen and (max-width: 650px) {
   .logo-img {
     width: 80px;
     height: 80px;
   }
   .navlinks{
-    padding: 15px;
+    padding: 10px 10px 15px 10px;
     margin: 0px 0px 0px 10px;
   }
   .nav-link1,.nav-link2,.nav-link3 {
@@ -421,7 +424,7 @@ h3 {
     height: 70px;
   }
   .navlinks{
-    padding: 15px;
+    padding: 5px 5px 10px 5px;
     margin: 0px 0px 0px 10px;
   }
   .nav-link1,.nav-link2,.nav-link3 {
@@ -501,13 +504,14 @@ h3 {
 @media screen and (min-width: 0px) and (max-width: 412px)
 {
   .navbar {
+    padding-top: 15px;
     flex-direction: column;
-    gap: 10px;;
-    margin-bottom: 140px;
+    gap: 15px;;
+    margin-bottom: 200px;
   }
   .logo-img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
   .navlinks{
     padding: 5px 5px 10px 5px;
@@ -526,7 +530,7 @@ h3 {
   }
   .personInfoDisplaying
   {
-    max-width: 90%;
+    max-width: 85%;
     min-width: 10%;
     padding: 60px;
     margin: 5%;
@@ -545,21 +549,12 @@ h3 {
   .step .progress {
     height: 2px;
   }
-  .Pa-container {
-    width: 100%;
-  }
   .button-container {
     gap: 40px;
   }
   .button-container button {
     padding: 5px 20px;
     font-size: 7px;
-  }
-  #pageline {
-    width: 80%;
-  }
-  #bottompageline {
-    width: 80%;
   }
 }
 /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
