@@ -182,8 +182,8 @@ input[type=submit] {
 }
 .logo-img {
     object-fit: contain;
-    width:110px;
-    height: 110px;
+    width:300px;
+    height: 300px;
 }
 .navbar {
   display: flex;
@@ -411,5 +411,24 @@ input[type=submit] {
     font-size: 10px;
     padding: 15px 5px;
     margin: 0px 5px;
+  }
+}
+.slideInText {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  opacity: 0; /* เริ่มต้นที่โปร่งใส */
+  transform: translateX(0); /* เริ่มจากด้านซ้าย */
+  animation: slideIn 4s ease-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+      opacity: 0;
+      transform: translateX(0); 
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0); /* ข้อความเลื่อนเข้ามาที่ตำแหน่งปกติ */
   }
 }
