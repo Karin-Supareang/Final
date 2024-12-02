@@ -8,6 +8,30 @@
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
 }
+.prompt-regjosh{
+  font-family: "Prompt", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.prompt-reg {
+  font-family: "Prompt", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+.prompt-bold {
+  font-family: "Prompt", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+}
+.prompt-exb {
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
 body {
     display: flex;
     flex-direction: column;
