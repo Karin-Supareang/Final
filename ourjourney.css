@@ -567,6 +567,7 @@ h3 {
   }
   .personInfoDisplaying
   {
+    height: 500px;
     max-width: 85%;
     min-width: 10%;
     padding: 60px;
@@ -574,9 +575,12 @@ h3 {
     padding-bottom: 50px;
     margin-bottom: 5px;
   }
+  .Pa-container {
+    margin-top: 20px;
+  }
   .description {
     font-size: 8px;
-    line-height: 2.3;
+    line-height: 2.5;
   }
   .circle {
     padding: 10px;
