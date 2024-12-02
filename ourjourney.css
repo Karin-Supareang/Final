@@ -155,7 +155,7 @@ main {
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
   z-index: 2;
   width: 80%;
-  height: fit-content;
+  height: 580px;
   padding: 60px;
   margin: 5%;
   padding-bottom: 50px;
@@ -482,22 +482,24 @@ h3 {
   .personInfoDisplaying
   {
     width: 75%;
+    
     padding: 60px;
     margin: 5%;
     padding-bottom: 50px;
     margin-bottom: 5px;
   }
   h3 {
-    font-size: 13px;
+    font-size: 15px;
   }
   .description {
     padding: 10px;
     font-size: 10px;
     text-align: center;
+    line-height: 2.4;
   }
   .person-profile img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
   }
   .button-container button {
     padding: 8px 25px;
@@ -530,8 +532,11 @@ h3 {
     margin-bottom: 5px;
   }
   .person-profile img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+  }
+  .description {
+    line-height: 2.5;
   }
   .button-container button {
     padding: 8px 25px;
@@ -571,6 +576,7 @@ h3 {
   }
   .description {
     font-size: 8px;
+    line-height: 2.3;
   }
   .circle {
     padding: 10px;
