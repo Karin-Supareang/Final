@@ -259,6 +259,39 @@ input[type=submit] {
   margin-bottom: 70px;
 }
 
+/*For Comments*/
+
+.comments {
+  width: 1000px; 
+  margin: 20px 0 20px 20px; 
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+
+.comment {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  text-align: left;
+  margin: 10px;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+
+.comment h3 {
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+}
+
+.rating {
+  color: #FFA500;
+}
+
 @media screen and (min-width:781px) and (max-width:1023px){
   .top-navlinks .nav-links{
     font-size: 16px;
@@ -312,6 +345,24 @@ input[type=submit] {
   }
   .bottom-navlinks .nav-link{
     font-size: 14px;
+  }
+
+  .comments {
+    width: 700px;
+    margin: 10px;
+    padding: 10px; 
+  }
+
+  .comment {
+    padding: 6px 0;
+  }
+
+  .comment h3 {
+    font-size: 16px;
+  }
+
+  .rating {
+    font-size: 12px; 
   }
 }
 
@@ -412,6 +463,30 @@ input[type=submit] {
     padding: 15px 5px;
     margin: 0px 5px;
   }
+
+  .comments {
+    width: 300px;
+    margin: 10px; 
+    padding: 10px; 
+  }
+
+  .comments h2{
+    font-size: 20px;
+  }
+
+  .comment {
+    padding: 6px 0; 
+    font-size: 12px;
+  }
+
+  .comment h3 {
+    font-size: 15px; 
+  }
+
+  .rating {
+    font-size: 12px;
+  }
+
 }
 .slideInText {
   font-size: 40px;

@@ -176,13 +176,13 @@
                     <h2 class="prompt-bold">GUEST BOOK : ข้อเสนอแนะ</h2>
                     <p class="prompt-reg">หากมีข้อเสนอแนะหรือความคิดเห็นสามารถส่งผ่านฟอร์มนี้ได้</p>
                 </div>
-                <form>
+                <form id="guestForm" onsubmit="return validateGuestForm()">
                     <label class="prompt-reg" for="fname">ชื่อ นามสกุล</label>
                     <input class="prompt-reg" type="text" id="fname" name="firstname" placeholder="Your name.."
                         required>
 
                     <label class="prompt-reg" for="lname">Email Address</label>
-                    <input class="prompt-reg" type="text" id="Email Address" name="Email Address"
+                    <input class="prompt-reg" type="text" id="email" name="email"
                         placeholder="Your Email" required>
 
                     <label class="prompt-reg" for="status">สถานะผู้ใช้งาน</label>
@@ -223,6 +223,11 @@
                     <input class="prompt-bold" type="submit" value="Submit">
                 </form>
             </div>
+
+            <div class="comments" id="commentsSection">
+                <h2>Comments</h2>
+            </div>
+
     </section>
     <div id="bottompageline">"</div>
 
@@ -235,7 +240,7 @@
     </ul>
     </div>
 
-
+    <script src="HomepageScripts.js"></script>
     <script src="script.js"></script>
 </body>
 
