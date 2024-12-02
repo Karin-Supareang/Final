@@ -214,12 +214,13 @@ input[type=submit] {
   border-radius: 12px;
 }
 .navbar a:hover ,.bottom-navlinks a:hover{
-  background-color: #e74c3c;
+  background-color: #ffd92e;
   transform: scale(1.05);
+  color: #000;
   }
 .nav-links, .nav-link {
   text-decoration: none;
-  color: #aaaaaa;
+  color: #d0d0d0;
   text-align: center;
   background: transparent;
   font-family: "Open Sans", sans-serif;
