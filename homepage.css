@@ -269,6 +269,7 @@ input[type=submit] {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: #000;
+  text-align: center;
 }
 
 
@@ -285,7 +286,6 @@ input[type=submit] {
 
 .comment h3 {
   margin: 0;
-  font-family: "Prompt", sans-serif;
 }
 
 .rating {
