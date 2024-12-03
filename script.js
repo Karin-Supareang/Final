@@ -1,4 +1,3 @@
-// Paragraph data for each person
 const data = {
     person1: [
        
@@ -45,7 +44,7 @@ const data = {
     ]
 };
 
-// Initialize progress tracking
+
 const progressState = {
     person1: 0,
     person2: 0,
@@ -56,12 +55,12 @@ const progressState = {
     person7: 0
 };
 
-// Function to update UI for a specific person
+
 function updateUI(person) {
     const paragraphs = data[person];
     const currentIndex = progressState[person];
 
-    // Update paragraph text
+
     const paragraphElement = document.querySelector(`#${person}paragraph`);
     paragraphElement.textContent = paragraphs[currentIndex];
 
@@ -86,7 +85,7 @@ function updateUI(person) {
     indicator.style.width = `${progressPercentage}%`;
 }
 
-// Add event listeners for a person's buttons
+
 function setupListeners(person) {
     const prevBtn = document.querySelector(`#${person}prevBtn`);
     const nextBtn = document.querySelector(`#${person}nextBtn`);
@@ -106,13 +105,12 @@ function setupListeners(person) {
     });
 }
 
-// Initialize each person's progress
+
 function initializePerson(person) {
     updateUI(person);
     setupListeners(person);
 }
 
-// Initialize components
 initializePerson("person1");
 initializePerson("person2");
 initializePerson("person3");
