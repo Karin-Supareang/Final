@@ -126,14 +126,22 @@ transform: 0.3s ease-in-out;
 /* navbar navbar navbar navbar navbar navbar navbar*/
 
 .topic {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  font-family: 'Inter';
-  font-size: 64px;
-  text-align: center;
-  color: #ffffff;
-  font-weight: bold;
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  font-size: 70px;
+
 }
+.title{
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+
 #pageline,#bottompageline {
   width: 90%;
   background-color: #ffffff;
@@ -184,6 +192,14 @@ main {
   border-radius: 50%;
   background: #4F378A;
 }
+.name {
+  font-size: 24px;
+  font-family: "Prompt", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+}
+
 h3 {
   font-size: 25px;
 }
@@ -230,16 +246,19 @@ h3 {
   padding: 20px;
   height: 30px;
   width: 30px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 20px;
   border-radius: 50%;
   background: #fff;
-  border: 3px solid tomato; /* A customary crimson border to signify unfulfilled steps */
+  border: 3px solid orangered; /* A customary crimson border to signify unfulfilled steps */
 }
 /*You see tha fancy red circle that jump around? here is the part*/
 .circle.completed {
-  background: tomato;
+  background: orangered;
   color: white;
-  border-color: tomato; /* Harmonizes with the hue of the fill */
+  border-color: orangered; /* Harmonizes with the hue of the fill */
 }
 /* For progress bar in the state of repose, feel free to tailor the progress bar to your liking. */
 .step .progress {
@@ -254,7 +273,7 @@ h3 {
   position: absolute;
   height: 100%;
   width: 0%;
-  background: tomato;
+  background: orangered;
   transition: width 0.3s ease;
 }
 /* Yes || change if you wish*/
@@ -266,10 +285,13 @@ h3 {
 .button-container button {
   padding: 17px 40px;
   margin-top: 25px;
-  background: tomato;
+  background:orangered;
   border: none;
   border-radius: 20px;
   color: #fff;
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-style: normal;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
