@@ -260,11 +260,12 @@ input[type=submit] {
   margin-bottom: 70px;
 }
 
+
 /*For Comments*/
 
 .comments {
   width: 1000px; 
-  margin: 20px 0 20px 20px; 
+  margin: 20px 20px 20px 20px; 
   background: #f8f8f8;
   padding: 20px;
   border-radius: 8px;
@@ -272,6 +273,7 @@ input[type=submit] {
   color: #000;
   text-align: center;
 }
+
 
 
 .comment {
@@ -291,6 +293,16 @@ input[type=submit] {
 
 .rating {
   color: #FFA500;
+}
+
+#Bottom{
+  width: 98%;
+  border-radius: 12px;
+  background-color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 10px;
+  font-size: 5px;
 }
 
 @media screen and (min-width:781px) and (max-width:1023px){
@@ -360,12 +372,20 @@ input[type=submit] {
     padding: 6px 0;
   }
 
+  .comments h2{
+    font-size: 15px;
+  }
+
   .comment h3 {
     font-size: 16px;
   }
 
   .rating {
     font-size: 12px; 
+  }
+
+  .comments h2{
+    font-size: 20px;
   }
 }
 
@@ -463,10 +483,6 @@ input[type=submit] {
     margin-bottom: 50px;
   }
 
-  .comments h2{
-    font-size: 20px;
-  }
-
   .comment {
     padding: 6px 0; 
     font-size: 12px;
@@ -480,6 +496,12 @@ input[type=submit] {
     font-size: 12px;
   }
 
+
+
+
+  .comments h2{
+    font-size: 20px;
+  }
 }
 .slideInText {
   text-align: center;
