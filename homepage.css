@@ -478,7 +478,11 @@ input[type=submit] {
   .comments {
     width: 300px;
     margin: 10px; 
-    padding: 10px; 
+    padding: 10px;
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
   }
 
   .comments h2{
