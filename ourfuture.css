@@ -241,7 +241,7 @@ figure img {
     font-size: 10px;
   }
   .topic, .title {
-    font-size: 35px;
+    font-size: 30px;
   }
   #pageline {
     margin-bottom: 100px;
@@ -268,7 +268,7 @@ figure img {
   }
   .description {
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
   }
   .Pa-container {
@@ -347,7 +347,7 @@ figure img {
   }
   .description {
     padding: 10px;
-    font-size: 14px;
+    font-size: 11px;
     text-align: center;
   }
   .Pa-container {
@@ -398,8 +398,8 @@ figure img {
     font-size: 15px;
   }
   .description {
-    padding: 10px;
-    font-size: 13px;
+    padding: 9px;
+    font-size: 10px;
     text-align: center;
   }
 }
@@ -427,7 +427,7 @@ figure img {
   }
   .description {
     padding: 10px;
-    font-size: 10px;
+    font-size: 9px;
     text-align: center;
     line-height: 2.4;
   }
@@ -474,7 +474,7 @@ figure img {
     height: 80px;
   }
   .description {
-    line-height: 2.5;
+    line-height: 2;
   }
   .button-container button {
     padding: 8px 25px;
@@ -576,7 +576,7 @@ figure img {
 
   .description {
     padding: 10px;
-    font-size: 13px;
+    font-size: 7px;
     text-align: center;
   }
 }
