@@ -62,6 +62,7 @@ body {
   object-fit: contain;
   width:300px;
   height: 300px;
+  padding-right: 40px;
 }
 .navbar {
 display: flex;
