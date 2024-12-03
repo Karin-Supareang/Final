@@ -321,7 +321,7 @@ h3 {
     padding: 12px 10px;
     font-size: 10px;
   }
-  .topic {
+  .topic, .title {
     font-size: 35px;
   }
   #pageline {
@@ -402,7 +402,7 @@ h3 {
     padding: 10px 10px;
     margin: 20px 10px;
   }
-  .topic {
+  .topic, .title  {
     font-size: 27px;
   }
   #pageline {
@@ -476,7 +476,7 @@ h3 {
     width: 130px;
     height: 130px;
   }
-  .topic {
+  .topic, .title  {
     font-size: 25px;
   }
   .personInfoDisplaying
@@ -506,7 +506,7 @@ h3 {
     width: 110px;
     height: 110px;
   }
-  .topic {
+  .topic, .title  {
     font-size: 23px;
   }
   .personInfoDisplaying
@@ -550,7 +550,7 @@ h3 {
     width: 100px;
     height: 100px;
   }
-  .topic {
+  .topic, .title  {
     font-size: 21px;
   }
   .personInfoDisplaying
@@ -588,7 +588,7 @@ h3 {
     width: 80px;
     height: 80px;
   }
-  .topic {
+  .topic, .title  {
     font-size: 18px;
   }
   .person-profile img {
