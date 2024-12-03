@@ -203,13 +203,19 @@ h3 {
   font-size: 23px;
   color: #555;
   line-height: 1.9;
+  min-height: 20vh;
+  max-height: 20vh;
   text-align: match-parent;
   width: 100%;
+  overflow-y: auto;
   word-wrap: break-word;
+  margin-bottom: 5vh;
 }
+
 #person1paragraph,#person2paragraph,#person3paragraph,#person4paragraph,#person5paragraph,#person6paragraph,#person7paragraph{
   font-family: 'Kanit';
   white-space: pre-line;
+
 }
 .Pa-container {
   display: flex;
