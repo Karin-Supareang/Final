@@ -102,17 +102,10 @@ body {
   font-size: 16px;
 }
 
-.bottom-navlinks {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  background: rgba(243, 241, 241, 0.05);
-  padding: 15px 25px;
-  border-radius: 12px;
-}
 
-.navbar a:hover,
-.bottom-navlinks a:hover {
+
+.navbar a:hover
+{
   background-color: #ffd92e;
   transform: scale(1.05);
   color: #000;

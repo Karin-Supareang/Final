@@ -213,15 +213,8 @@ input[type=submit] {
   display: flex;
   font-size: 16px;
 }
-.bottom-navlinks {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  background: rgba(243, 241, 241, 0.05);
-  padding: 15px 25px;
-  border-radius: 12px;
-}
-.navbar a:hover ,.bottom-navlinks a:hover{
+
+.navbar a:hover a:hover{
   background-color: #ffd92e;
   transform: scale(1.05);
   color: #000;
@@ -457,32 +450,17 @@ input[type=submit] {
   #bottompageline{
     margin-top: 70px;
   }
-  .bottom-navlinks{
-    padding: 0px 20px;
-    margin: 20px;
-    gap: 0px;
-  }
-  .bottom-navlinks .nav-links{
-    display: flex;
-    font-size: 16px;
-    padding: 10px 5px;
-    margin: 0px 5px;
-  }
-  .bottom-navlinks .nav-link{
-    display: flex;
-    font-size: 10px;
-    padding: 15px 5px;
-    margin: 0px 5px;
-  }
+
 
   .comments {
     width: 300px;
-    margin: 10px; 
+    margin: 20px; 
     padding: 10px;
     font-family: "Prompt", sans-serif;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 50px;
   }
 
   .comments h2{
