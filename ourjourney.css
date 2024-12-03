@@ -116,12 +116,6 @@ margin-right: 60px;
 transition: 0.3s ease-in-out;  
 transform: 0.3s ease-in-out;
 }
-.prompt-bold {
-  font-family: "Prompt", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  font-style: normal;
-}
 
 /* navbar navbar navbar navbar navbar navbar navbar*/
 
@@ -521,8 +515,8 @@ h3 {
     padding-bottom: 50px;
     margin-bottom: 5px;
   }
-  h3 {
-    font-size: 15px;
+  .name {
+    font-size: 17px;
   }
   .description {
     padding: 10px;
@@ -611,6 +605,9 @@ h3 {
     margin: 5%;
     padding-bottom: 50px;
     margin-bottom: 5px;
+  }
+  .name {
+    font-size: 14px;
   }
   .Pa-container {
     margin-top: 20px;
