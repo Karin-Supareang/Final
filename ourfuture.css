@@ -278,3 +278,25 @@ figure img {
     text-align: center;
   }
 }
+#message {
+  font-size: 30px;
+  font-weight: bold;
+  color: #dadada;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid;
+  width: 0;
+  animation: typing 4s steps(23) 1s forwards, blinkCaret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  100% {
+      width: 72%;
+  }
+}
+
+@keyframes blinkCaret {
+  50% {
+      border-color: transparent;
+  }
+}
