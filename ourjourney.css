@@ -451,6 +451,7 @@ h3 {
   }
   .Pa-container {
     width: 100%;
+    margin-top: 10px;
   }
   .button-container {
     gap: 70px;
@@ -509,10 +510,12 @@ h3 {
   .topic, .title  {
     font-size: 23px;
   }
+  .Pa-container {
+    margin-top: 20px;
+  }
   .personInfoDisplaying
   {
     width: 75%;
-    
     padding: 60px;
     margin: 5%;
     padding-bottom: 50px;
@@ -553,8 +556,12 @@ h3 {
   .topic, .title  {
     font-size: 21px;
   }
+  .Pa-container {
+    margin-top: 10px;
+  }
   .personInfoDisplaying
   {
+    height: 600px;
     width: 75%;
     padding: 60px;
     margin: 5%;
