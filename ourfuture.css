@@ -30,6 +30,12 @@
   font-weight: 900;
   font-style: normal;
 }
+.prompt-edge {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+}
 
 body {
   display: flex;
@@ -134,10 +140,20 @@ body {
 }
 
 .topic {
-  font-family: 'Inter';
-  font-size: 64px;
-  text-align: center;
-  color: #ffffff;
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  font-size: 70px;
+
+}
+.title{
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 80px;
 }
 
 #pageline {
@@ -206,6 +222,10 @@ figure img {
 
 .name {
   font-size: 24px;
+  font-family: "Prompt", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .description {
