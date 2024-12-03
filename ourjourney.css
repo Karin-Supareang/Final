@@ -634,3 +634,25 @@ h3 {
   }
 }
 /* this is responsive  this is responsive this is responsive this is responsive this is responsive this is responsive this is responsive*/
+#message {
+  font-size: 30px;
+  font-weight: bold;
+  color: #dadada;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid;
+  width: 0;
+  animation: typing 4s steps(28) 1s forwards, blinkCaret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  100% {
+      width: 76%;
+  }
+}
+
+@keyframes blinkCaret {
+  50% {
+      border-color: transparent;
+  }
+}
